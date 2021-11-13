@@ -1,0 +1,12 @@
+.virtualized-list-window {
+  overflow: scroll;
+}
+
+.virtualized-list-inner {
+  position: relative;
+}
+
+.virtualized-list-inner .virtualized-list-item {
+  position: absolute;
+  overflow: hidden;
+}
