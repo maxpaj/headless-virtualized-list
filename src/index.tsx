@@ -8,7 +8,7 @@ type VirtualizedListProps<T extends Object> = {
   items: T[];
   itemHeight?: number;
   showNumberOfItems?: number;
-  style: React.CSSProperties;
+  style?: React.CSSProperties;
 };
 
 export function VirtualizedList<T extends Object>({
