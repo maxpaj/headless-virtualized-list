@@ -8,6 +8,7 @@ type VirtualizedListProps<T extends Object> = {
   items: T[];
   itemHeight?: number;
   showNumberOfItems?: number;
+  style: React.CSSProperties;
 };
 
 export function VirtualizedList<T extends Object>({
@@ -16,6 +17,7 @@ export function VirtualizedList<T extends Object>({
   itemHeight = 50,
   renderItem,
   getItemKey,
+  style,
 }: VirtualizedListProps<T>) {
   const listTotalHeight = itemHeight * items.length;
   const listWindowHeight = itemHeight * showNumberOfItems;
@@ -28,7 +30,7 @@ export function VirtualizedList<T extends Object>({
       ref={listRef}
       className="virtualized-list-window"
       data-testid="virtualised-list-window"
-      style={{ height: listWindowHeight }}
+      style={{ ...style, height: listWindowHeight }}
     >
       <div
         className="virtualized-list-inner"
