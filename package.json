@@ -1,5 +1,6 @@
 {
-  "name": "virtualized-list",
+  "name": "@maxpaj/virtualized-list",
+  "private": false,
   "version": "1.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
@@ -49,5 +50,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxpaj/virtualized-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxpaj/virtualized-list/issues"
+  },
+  "homepage": "https://github.com/maxpaj/virtualized-list#readme",
+  "description": ""
 }
