@@ -3,7 +3,7 @@
 Renders only the few visible items of a large list.
 
 ```
-npm install --save @maxpaj/virtualized-list
+$ npm install --save @maxpaj/virtualized-list
 ```
 
 ```
