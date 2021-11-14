@@ -1,7 +1,7 @@
 {
   "name": "@maxpaj/virtualized-list",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -21,15 +21,16 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "main": "./lib/cjs/template-component.js",
-  "module": "./lib/esm/template-component.js",
-  "types": "./lib/esm/template-component.d.ts",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "files": [
-    "/lib"
+    "/lib",
+    "/src"
   ],
   "scripts": {
     "start": "tsc -w",
-    "build": "build:esm && build:cjs",
+    "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },

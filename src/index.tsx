@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState } from "react";
-import "./VirtualizedList.css";
+import "./index.css";
 
 type VirtualizedListProps<T extends Object> = {
   renderItem: (item: T, index: number) => React.ReactNode;

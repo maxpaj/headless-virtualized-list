@@ -1,5 +1,5 @@
 import { render, fireEvent } from "@testing-library/react";
-import { VirtualizedList } from "./VirtualizedList";
+import { VirtualizedList } from "./index";
 
 describe("VirtualizedList", () => {
   test("it should render the items in the given scroll window", () => {
