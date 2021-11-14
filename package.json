@@ -1,5 +1,5 @@
 {
-  "name": "@maxpaj/virtualized-list",
+  "name": "@maxpaj/react-virtualized-list",
   "private": false,
   "version": "1.0.5",
   "dependencies": {
