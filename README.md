@@ -1,6 +1,6 @@
 # virtualized-list
 
-Renders only the few visible items of a large list.
+Efficiently renders only a few visible items of very large lists, while keeping normal scrolling behaviour.
 
 ```
 $ npm install --save @maxpaj/virtualized-list
