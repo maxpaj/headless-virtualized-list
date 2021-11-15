@@ -1,9 +1,9 @@
-# virtualized-list
+# react-virtualized-list
 
 Efficiently renders very large lists, while retaining normal scrolling behaviour.
 
 ```
-$ npm install --save @maxpaj/virtualized-list
+$ npm install --save @maxpaj/react-virtualized-list
 ```
 
 ```
