@@ -79,13 +79,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxpaj/virtualized-list.git"
+    "url": "git+https://github.com/maxpaj/react-virtualized-list.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxpaj/virtualized-list/issues"
+    "url": "https://github.com/maxpaj/react-virtualized-list/issues"
   },
-  "homepage": "https://github.com/maxpaj/virtualized-list#readme",
+  "homepage": "https://github.com/maxpaj/react-virtualized-list#readme",
   "description": ""
 }
