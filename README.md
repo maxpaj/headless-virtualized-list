@@ -1,4 +1,4 @@
-# react-virtualized-list
+# headless-virtualized-list
 
 Efficiently renders very large lists, while retaining normal scrolling behaviour.
 
